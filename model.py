@@ -9,8 +9,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 # Load dataset using full path
-path = r"C:\Users\gopin\OneDrive\Desktop\ML PROJECT\Data\Salary_Data.csv"
-data = pd.read_csv(path)
+data = pd.read_csv("Salary_Data.csv")
 
 # Reverse mapping (Salary → Experience)
 X = data[["Salary"]]
