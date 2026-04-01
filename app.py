@@ -10,9 +10,7 @@ import numpy as np
 import pandas as pd
 
 # Load dataset (for reference if needed)
-path = r"C:\Users\gopin\OneDrive\Desktop\ML PROJECT\Data\Salary_Data.csv"
-data = pd.read_csv(path)
-
+data = pd.read_csv("Salary_Data.csv")
 # Load model
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
